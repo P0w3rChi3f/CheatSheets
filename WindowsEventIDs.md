@@ -67,9 +67,9 @@
 
 ---  
 
-## 4771 Failed Pre-Authintication Events  
+## 4771 Failed Pre-Authentication Events  
 
-| Failed Description Code | 4771 Failed Pre-Authenticaton Events|  
+| Failed Description Code | 4771 Failed Pre-Authentication Events|  
 |--- | --- |  
 | 0xC0000064 | ox6 Invalid username |  
 | 0xC000006A | ox7 requested server not found |  
@@ -89,7 +89,7 @@
  | 1034 | Application removal completed (with success/failure status) |  
  | 11707 | Installation completed successfully |  
  | 11708 | Installation operation failed |  
- | 11724 | Applicatio removal completed successfully |  
+ | 11724 | Application removal completed successfully |  
  | 1001 | Windows Error reporting (BSOD?) |  
  | 1000/1002 | Application error/hang |  
 
