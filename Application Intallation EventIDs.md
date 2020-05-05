@@ -9,4 +9,3 @@
  | 11724 | Application removal completed successfully |  
  | 1001 | Windows Error reporting (BSOD?) |  
  | 1000/1002 | Application error/hang |  
- 
