@@ -1,4 +1,6 @@
-# Windows Event IDs  
+# Windows Events  
+
+## Windows EventIDs  
 
 | EventID | Description |  
 | --- | --- |  
