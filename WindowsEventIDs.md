@@ -1,6 +1,4 @@
-# Windows Events  
-
-## Windows EventIDs  
+# Windows EventIDs With Descritption  
 
 | EventID | Description |  
 | --- | --- |  
@@ -48,66 +46,3 @@
 | 7040 | Start type changed (Boot|On Request|Disabled) Sys |  
 | 7045 | A service was installed on the system (Win2kr2)  Sys |  
 | 4697 | A service was installed on the system (from security log) |  
-
----
-
-## Windows Logon Type Codes (Goes with eventID 4624)  
-
-|Type Code | Description|  
-|--- | --- |  
-| 2 | Logon via console (keyboard/terminal) |  
-| 3 | Network Logon |  
-| 4 | Batch Logon (used by Scheduled Tasks |  
-| 5 | Windows Service Logon |  
-| 7 | Credentials used to lock or unlock screen |  
-| 8 | Network logon sending credentials in cleartext |  
-| 9 | Different Credentials than logged on user (runas) |  
-| 10 | Remote interactive logon (RDP) |  
-| 11 | Cached Credentials used to logon- offline from DC |  
-| 12 | Cached remote Interactive (Similar to 10) |  
-| 13 | Cached unlock (Similar to 07) |  
-
----  
-
-## 4771 Failed Pre-Authentication Events  
-
-| Failed Description Code | 4771 Failed Pre-Authentication Events|  
-|--- | --- |  
-| 0xC0000064 | ox6 Invalid username |  
-| 0xC000006A | ox7 requested server not found |  
-| 0xC000006F | oxC Policy restriction prohibited logon (day/time rest) |  
-| 0xC0000070 | ox12 Account locked, disabled, expired |  
-| 0xC0000071 | ox17 Password expired |  
-| 0xC0000072 | ox18 Password invalid  |  
-| 0xC00000193 | ox25 Clock skew between machines is too great  |  
-
----
-
-## Application Installation  
-
- | EventID | Description |  
- | --- | --- |  
- | 1033 | Installation completed (with success/failure status) |  
- | 1034 | Application removal completed (with success/failure status) |  
- | 11707 | Installation completed successfully |  
- | 11708 | Installation operation failed |  
- | 11724 | Application removal completed successfully |  
- | 1001 | Windows Error reporting (BSOD?) |  
- | 1000/1002 | Application error/hang |  
-
----
-
-## Event Log Summary  
-
- | Event Type | Event Log Type | EventIDs |  
- | --- | --- | --- |  
- | Logons | Security | 4624, 4625, 4634, 4647, 4672, 4720, 4648 |  
- | Account Logon | Security | 4768, 4769, 4771, 4776 |  
- | RDP | Security, RDPCoreTS, TerminalServices-Remote | 4624, 4625, 4778, 4779, 131, 1149 |  
- | Network Shares | Security | 5140, 5141, 5142, 5143, 5144, 5145 |  
- | Scheduled Tasks | Security | Task Scheduler | 4698, 106, 141, 200 |  
- | Installation | Application | 1033, 1034, 11707, 11708, 11724 |  
- | Malware Execution | Security, System, Application | 4668, 1001, 1000, 1001, 1002 |  
- |Services | System, Security | 7034, 7035, 7036, 7040, 7045, 4697 |  
- | Command Lines | Security, Application/PowerShell | 4688, 4104, 4105, 4106 |  
- | Log Clearing | Security, System | 1102, 104 |  
