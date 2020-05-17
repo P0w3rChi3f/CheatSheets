@@ -1,4 +1,4 @@
-EventID	Description
+EventID Description
 104	Audit log cleared (System log)
 106/4698	scheduled task created (task scheduler security log)
 140/4702	scheduled task updated (task scheduler
